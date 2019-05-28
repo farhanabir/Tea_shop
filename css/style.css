@@ -352,7 +352,7 @@ footer{
 .foot_wrap_2{
     width: 44%;
     float: right;
-    text-align: -webkit-left;
+    text-align: left;
 }
 .foot_wrap_2 ul{
     list-style: none;
