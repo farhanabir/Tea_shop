@@ -1,0 +1,402 @@
+/*Header start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+    background-color: #FDFDFD;
+    height: 140px;
+}
+.wrapper{
+    width: 65%;
+    margin: 0 auto;
+    background-color: #FDFDFD;
+}
+.icon{
+    overflow: hidden;
+    padding-top: 11px;
+    padding-bottom: 10px;
+}
+.icon img{
+    float: left;
+    padding-top: 9px;
+}
+.title{
+    padding-top: 6px;
+    width: 57%;
+    float: left;
+    padding-left: 20px;
+}
+.title h1{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 0;
+    letter-spacing: 0px;
+    word-spacing: -13px;
+    color: #1A1A1A;
+    transform: scale(1,1.2);
+}
+.title h2{
+    margin-top: 0;
+    margin: 0;
+    font-family: cursive;
+    font-weight: normal;
+    font-size: 14px;
+    font-style: italic;
+    color: #1A1A1A;
+    word-spacing: 5px;
+    letter-spacing: 0px;
+}
+.info{
+    float: right;
+    width: 18%;
+    line-height: 6px;
+    padding-top: 30px;
+}
+.info p{
+    color: #969696;
+    font-weight: bold;
+}
+.info p:nth-child(1){
+	padding-left: 18px;
+	color: #5C5C5C;
+}
+.info p:nth-child(2){
+	padding-left: 30px;
+	color: #5F6466;
+	font-weight: normal;
+
+}
+.info p:nth-child(3){
+	padding-left: 15px;
+	color: #5F6466;
+	font-weight: normal;
+}
+/*header ends*/
+/* menu starts*/
+.intro2{
+    background-color: #131313eb;
+    height: 29px;
+}
+.menu{
+	width: 75%;
+    margin: 0 auto;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+    float: left;
+    padding-top: 4px;
+    position: relative;
+    padding-right: 40px;
+    margin-left: 0px;
+    padding-bottom: 8px;
+}
+.menu ul li a{
+    font-family: serif;
+    font-size: 19px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 0px;
+    color: #6C747A;
+}
+.menu ul li a:hover{
+	color: #E5E0D7;
+	transition: .6s;
+}
+.menu ul li ul{
+    color: #efef52;
+    position: absolute;
+    padding: 2px;
+    background-color: black;
+    margin-top: 4px;
+    display: none;
+}
+.menu ul li ul li{
+    width: 85px;
+}
+.menu ul li ul li a{
+    font-size: 16px;
+    color: #ecec4c;
+    padding: 0;
+
+}
+.menu ul li:hover ul{
+    display: block;
+    color: #ecec4c;
+    transition: .4s;
+    visibility: visible;
+    z-index: 100;
+}
+.menu ul li ul li a:hover{
+    color: white;
+    transform: translateY(-7px);
+}
+.main_part{
+	background-image: url(../images/bg.jpg);
+	/*colledted from <a href="https://www.freepik.com/free-photos-vectors/background">kjpargeter</a>*/
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 7px solid black;
+}
+.banner {
+    overflow: hidden;
+    height: 400px;
+    width: 66%;
+    margin: 0 auto;
+}
+.banner figure div{
+    width: 20%;
+    float: left;
+}
+
+.img{
+    width: 100%;
+    float: left;
+}
+.banner figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slidey infinite;
+}
+
+@keyframes slidey{
+        0%{
+        left: 0%;
+    }
+        10%{
+        left: 0%;
+    }
+        12%{
+        left: -100%;
+    }
+        22%{
+        left: -100%;
+    }
+        24%{
+        left: -200%;
+    }
+        34%{
+        left: -200%;
+    }
+        36%{
+        left: -300%;
+    }
+        46%{
+        left: -300%;
+    }
+        48%{
+        left: -400%;
+    }
+        58%{
+        left: -400%;
+    }
+        60%{
+        left: -300%;
+    }
+        70%{
+        left: -300%;
+    }
+        72%{
+        left: -200%;
+    }
+        82%{
+        left: -200%;
+    }
+        84%{
+        left: -100%;
+    }
+        94%{
+        left: -100%;
+    }
+        96%{
+        left: 0%;
+    }
+}
+/*menu ends*/
+/*description begins*/
+
+.main{
+        height: 823px;
+}
+.left_main {
+    margin-top: 40px;
+    float: left;
+    width: 22%;
+}
+.hh11 {
+    font-family: monospace;
+    font-size: 19px;
+    word-spacing: -5px;
+    color: #333333;
+    letter-spacing: -1px;
+    transform: scale(1,1.2);
+    margin-bottom: 30px;
+}
+.hh22 {
+    font-family: monospace;
+    font-weight: 550;
+    font-size: 14px;
+    word-spacing: -1px;
+    color: #333333;
+    line-height: 18px;
+    letter-spacing: -1px;
+}
+label{
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+form{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.name , .email{
+    width: 190px;
+    padding: 5px;
+    border-radius: 4px;
+    border-style: ridge;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.message{
+    width: 190px;
+    padding: 5px;
+    border-radius: 4px;
+    border-style: ridge;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.button {
+    width: 150px;
+    height: 32px;
+    background-color: #99BB1E;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: darkslategray;
+    border-radius: 4px;
+    border-style: groove;
+    margin-bottom: 60px;
+}
+#img1{
+margin-bottom: 14px;
+}
+h3{
+    font-weight: bolder;
+    margin-top: 9px;
+    text-align: center;
+    line-height: 0;
+    padding: 0;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    transform: scale(1,.9);
+    color: #595959;
+}
+.right_main {
+    margin-top: 40px;
+    float: right;
+    width: 68.5%
+}
+.main_wrap_1 {
+    margin-top: 45px;
+    overflow: hidden;
+}
+.wrap_1 {
+    width: 27%;
+    float: left;
+    padding-right: 38px;
+}
+.image1{
+    height: 130px;
+    width: 114%;
+}
+.main_wrap_2 {
+    overflow: hidden;
+}
+.address {
+    float: left;
+    width: 25%;
+}
+.map {
+    width: 67%;
+    float: right;
+}
+.image2{
+    width: 100%;
+    height: 220px;
+}
+/*description ends*/
+/*Footer starts*/
+footer{
+    height: 250px;
+    background-color: #EDEDED;
+}
+.foot_wrap{
+    width: 65%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.foot_wrap_1{
+    float: left;
+    width: 52%;
+    text-align: -webkit-right;
+}
+.foot_wrap_2{
+    width: 44%;
+    float: right;
+    text-align: -webkit-left;
+}
+.foot_wrap_2 ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.foot_wrap_2 ul li{
+    float: left;
+    text-decoration: none;
+    padding: 0px;
+    width: 20px;
+    text-align: center;
+    padding: 3px 2px;
+    border-radius: 6px;
+    margin-right: 4px;
+}
+.foot_wrap_2 ul li a{
+    text-align: center;
+    color: white;
+}
+.foot_wrap_2 ul li:hover{
+    transform: translateY(-7px);
+    box-shadow: 0 10px 10px rgba(0,0,0,.5);
+    transition: .7s;
+}
+.fb{
+    background-color: #3A5999;
+    color: white;
+    font-size: 16px;
+}
+.ld{
+    background-color: #0077B5;
+    color: white;
+    font-size: 16px;
+}
+.tt{
+    background-color: #55acee;
+    color: white;
+    font-size: 16px;
+}
+.hh22 span{
+    padding-right: 15px;
+}
+.foot_wrap_3{
+    text-align: center;
+    width: 107%;
+}
+/*Footer ends*/
